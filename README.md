@@ -1,6 +1,7 @@
 # <u>**Habit Tracker App Project**</u>
 
-A python based Habit Tracker app based on Pixela API. </br> </br>
+A python based Habit Tracker app created with 
+Pixela API. </br> </br>
 
 ![Habit Tracker](image.jpg) <br/>
 
