@@ -10,12 +10,8 @@ load_dotenv(".env_FILE_PATH/.env")
 # Constants
 TODAY = datetime.today().strftime("%Y%m%d")
 VARIABLE_DATE = datetime(year=2021, month=8, day=22).strftime("%Y%m%d")
-<<<<<<< HEAD
-USERNAME = "thewildmonk"
-=======
 HOURS = str(4)
 USERNAME = "USERNAME"
->>>>>>> 29af3757043c291298fa863ccdba0cc95987d357
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 PIXELA_API_KEY = os.getenv("PIXELA_API_KEY")
 PIXELA_HEADER = {
