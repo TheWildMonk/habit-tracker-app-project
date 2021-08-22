@@ -11,7 +11,6 @@ load_dotenv("/Volumes/Workstation/Learning Center/Data Science/"
 # Constants
 TODAY = datetime.today().strftime("%Y%m%d")
 VARIABLE_DATE = datetime(year=2021, month=8, day=22).strftime("%Y%m%d")
-HOURS = str(4)
 USERNAME = "thewildmonk"
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 PIXELA_API_KEY = os.getenv("PIXELA_API_KEY")
@@ -42,7 +41,7 @@ GRAPH_PARAMS = {
 PIXELA_POST_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/{GRAPH_PARAMS['id']}"
 POST_PIXEL_PARAMS = {
     "date": TODAY,
-    "quantity": HOURS,
+    "quantity": str(input("How many hours did you code today: ")),
 }
 
 # # Create user & graph
