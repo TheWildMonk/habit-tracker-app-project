@@ -5,14 +5,13 @@ from dotenv import load_dotenv
 
 
 # Load .env file
-load_dotenv("/Volumes/Workstation/Learning Center/Data Science/"
-            "100 Days of Code - Complete Python Pro Bootcamp 2021/Projects/@CREDENTIALS/.env")
+load_dotenv(".env_FILE_PATH/.env")
 
 # Constants
 TODAY = datetime.today().strftime("%Y%m%d")
 VARIABLE_DATE = datetime(year=2021, month=8, day=22).strftime("%Y%m%d")
 HOURS = str(4)
-USERNAME = "thewildmonk"
+USERNAME = "USERNAME"
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 PIXELA_API_KEY = os.getenv("PIXELA_API_KEY")
 PIXELA_HEADER = {
